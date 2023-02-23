@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens, Áudios e Videos</title>
+</head>
+<body>
+   <h1>Imagens dinâmicas</h1> 
+   <p>Tente abrir esse site com vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+   <p>
+       <picture>
+           <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+           <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+           <img src="imagens/foto-g.png" alt="imagem flexivel">
+       </picture> 
+   </p>
+   <h1>Reproduzindo áudios</h1>
+   <p>Vamos aprender e representar áudios em HTML.</p>
+
+   <audio preload="metadata" controls  >
+    <source src="midia/Ed Sheeran - One [Official Music Video](MP3_320K).mp3" type="audio/mpeg"> 
+   </audio>
+   <ul>
+       <li>
+           <a href="midia/Ed Sheeran - One [Official Music Video](MP3_320K).mp3" download="Ed shareen-One" type="audio/mpeg"> clique aqui para baixar
+           </a>
+    </ul>
+<h1> Reproduzindo videos</h1>
+<p>Vamos aprender e reproduzir videos em HTML.</p>
+<video weight="600" poster="imagens/post.jpg" controls >
+  <source src="videos/video_mp4.mp4" type="video/mp4"> 
+  <source src="videos/video_webm.webm" type="video/webm">
+  <source src="videos/video_mkv.mkv" type="video/mp4">
+ 
+</video>
+<p>Se o navegador não suportar o video, <a href="videos/video_mp4.mp4" download="avés" type="video/mp4"> clique aqui para o download.</a></p>
+</body>
+</html>
