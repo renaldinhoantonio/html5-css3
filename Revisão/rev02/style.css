@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, aqua, blue, orange, yellow);
+    background-color: aquamarine;
+    background-attachment: fixed;
+}
+
+h1{
+    color: aliceblue;
+}

@@ -7,6 +7,22 @@
     <title>Teste</title>
 </head>
 <body>
-    <p><a href=""><img src="imagens/post.jpg" alt=""></a> <img src="imagens/post.jpg" alt=""><br><img src="imagens/post.jpg" alt=""> <img src="imagens/post.jpg" alt=""></p>
+    <h1>Imagenns flexiveis</h1>
+    <picture>
+        <source media="(max-width:500px)" srcset="imagens/pq.png" type="image/png">
+        <source media="(max-width:850px)" srcset="imagens/md.png" type="image/png">
+        <img src="imagens/gd.png" alt="maior">
+    </picture>
+
+    <h1>Audio</h1>
+    <audio src="midia/Ed Sheeran - One [Official Music Video](MP3_320K).mp3" preload="metadata" controls>
+        <source src="" type="">
+    </audio>
+
+    <h1>Video</h1>
+    <video src="videos/video_mp4.mp4" width="800" poster="imagens/foto-p.png" controls>
+        <source src="" type="">
+    </video>
+    <p>Faça o seu donwload <a href="videos/video_mp4.mp4" download="gaivotas.mp4" type="video/mp4">aqui</a>!</p>
 </body>
 </html>
